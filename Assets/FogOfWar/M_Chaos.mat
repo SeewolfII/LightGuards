@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_Chaos
+  m_Shader: {fileID: 4800000, guid: b0424f8f9f0cb604a81dbb8b49d2c450, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _LightMaxRadius: 1
+    - _LightRadius: 5
+    - _Player1_Rad: 1
+    - _Player2_Rad: 1
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Player1_Pos: {r: 0, g: 0, b: 0, a: 1}
+    - _Player2_Pos: {r: 0, g: 0, b: 0, a: 1}
+    - _Player2_pos: {r: 0, g: 0, b: 0, a: 1}
